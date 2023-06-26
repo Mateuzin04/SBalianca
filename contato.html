@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SB Aliança</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="script.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="headerImg">
+            <a href=""><img src="img/WhatsApp Image 2023-06-22 at 12.41.24.jpeg" width=200px></a>
+        </div>
+        <div class="navegacao">
+            <div class="navItem">
+                <a href="#imovel">
+                    Imoveis
+                </a>
+            </div>
+            <div class="navItem">
+                <a href="">
+                    Aluguéis
+                </a>
+            </div>
+
+            <div class="navItem">
+                <a href="">
+                    Contato
+                </a>
+            </div>
+        </div>
+
+    </header>
+    <H2>Fale conosco!</H2> <br>
+    <form action="https://formspree.io/f/xbjvrgrz" method="post">
+        <input name="nome" type="text" placeholder="Nome*" required>
+        <input name="email" type="email" id="email" placeholder="Email">
+        <input name="telefone" type="text" placeholder="Telefone*" id="telefone" required>
+        <textarea name="message" name="" id="" cols="30" rows="10" placeholder="Mensagem*" required></textarea>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <p class="titulo">
+        Localização:
+    </p>
+    <section>
+        <div class="parentDiv">
+            <p class="texto">
+                Águas Claras, Rua das Aroeiras
+                <img src="https://static.vecteezy.com/system/resources/previews/009/588/955/non_2x/location-location-pin-location-icon-transparent-free-png.png"
+                    widht="35px" height="35px">
+            </p>
+        </div>
+    </section>
+    <div class="mapa">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3838.4713848254373!2d-48.03717392400928!3d-15.831803323878987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a325c3bbfef0b%3A0xaf43208f4424774b!2sR.%20das%20Aroeiras%20-%20%C3%81guas%20Claras%2C%20Bras%C3%ADlia%20-%20DF%2C%2070297-400!5e0!3m2!1spt-BR!2sbr!4v1687727522508!5m2!1spt-BR!2sbr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <footer>
+        Copyright © 2023 by SB Aliança All Rights Reserved.
+        <div class="navItem">
+
+        </div>
+        <a href="">
+
+            <img src="https://logodownload.org/wp-content/uploads/2015/04/whatsapp-logo-1.png" width="25px"
+                height="25px">
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
+    <script>
+        $('#telefone').mask('(00) 00000-0000');
+    </script>
+</body>
+
+</html>

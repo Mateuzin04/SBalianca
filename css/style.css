@@ -1,8 +1,9 @@
-
+:root{
+  font-family:Arial, Helvetica, sans-serif; 
+}
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
 
@@ -71,8 +72,14 @@ a {
 
 input {
  font-family: Arial, Helvetica, sans-serif;
-    padding: 0.5rem;
+    padding: 1rem;
    border-radius: 15px;
+   
+}
+textarea{
+  resize: vertical;
+  height: 100%;
+  border-radius: 10px;
 }
 
 input[type="submit"]{
@@ -268,7 +275,7 @@ h3{
 }
 
 form{
-  height: 70%;
+  height: 600px;
   display: flex;
   flex-direction: column;
   gap: 1rem;
